@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News Portals</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="news_category_items">
+        <item>Bangla News</item>
+        <item>English News</item>
+        <item>Magazine News</item>
+        <item>Jobs News</item>
+        <item>Technology News</item>
+        <item>Sport News </item>
+        <item>Business News</item>
+        <item>Versity News </item>
+        <item>International News </item>
+    </string-array>
+
+    <!-- bangla news list title -->
+    <string-array name="bangla_news_title">
+        <item>প্রথম আলো</item>
+        <item>বাংলাদেশ প্রতিদিন</item>
+        <item>দৈনিক ইত্তেফাক</item>
+        <item> কালের কণ্ঠ</item>
+        <item> নয়া দিগন্ত</item>
+        <item> আমার দেশ</item>
+        <item> সকালের খবর</item>
+        <item>দৈনিক ইনকিলাব</item>
+        <item>যুগান্তর</item>
+        <item>দৈনিক সংগ্রাম</item>
+        <item> মানবজমিন</item>
+        <item>আমাদের সময়</item>
+        <item>সমকাল</item>
+        <item>জনকণ্ঠ</item>
+        <item>বর্তমান</item>
+        <item>যায়যায়দিন</item>
+        <item>ভোরের কাগজ</item>
+        <item>মানব কণ্ঠ</item>
+        <item>দৈনিক সংবাদ</item>
+        <item>আলোকিত বাংলাদেশ</item>
+        <item>নতুন বার্তা</item>
+        <item>দৈনিক ডেসটিনি</item>
+        <item>সোনার বাংলা</item>
+        <item>গণ-কণ্ঠ</item>
+    </string-array>
+
+    <!-- List of Url link -->
+
+    <string-array name="bangla_news_url">
+        <item>http://m.prothom-alo.com/</item>
+        <item>http://www.bd-pratidin.com/</item>
+        <item>http://www.ittefaq.com.bd/</item>
+        <item>http://www.kalerkantho.com</item>
+        <item>http://dev.dailynayadiganta.com/</item>
+        <item>http://amardesh.com/</item>
+        <item>http://shokalerkhobor24.com/</item>
+        <item>www.dailyinqilab.com</item>
+        <item>http://www.jugantor.com/</item>
+        <item>http://www.dailysangram.com/</item>
+        <item>http://www.mzamin.com/</item>
+        <item>http://www.amadershomoy.com/</item>
+        <item>http://www.samakal.net/</item>
+        <item>http://www.dailyjanakantha.com/</item>
+        <item>http://bartamanpatrika.com/</item>
+        <item>http://www.jjdin.com/</item>
+        <item>http://www.bhorerkagoj.net/</item>
+        <item>http://www.manobkantha.com/</item>
+        <item>http://www.thedailysangbad.com/</item>
+        <item>http://www.alokitobangladesh.com/</item>
+        <item>http://www.natunbarta.com/</item>
+        <item>http://www.dainikdestiny.com/</item>
+        <item>http://www.weeklysonarbangla.net/</item>
+        <item>http://www.gonokantho.com</item>
+    </string-array>
+
+    <!-- List of English news Title -->
+    <string-array name="english_news_title">
+        <item>The Daily Star</item>
+        <item>The Independent</item>
+        <item>Daily Sun</item>
+        <item>News Today</item>
+        <item>bdnews24.com</item>
+        <item>The-Editor</item>
+        <item>The Daily new nation</item>
+        <item>Bangladesh Today</item>
+        <item>BSS news agency</item>
+        <item>New Age Daily</item>
+        <item>UNN Bangladesh</item>
+        <item>UNB Connect</item>
+    </string-array>
+
+    <!-- english  news url -->
+
+    <string-array name="english_news_url">
+        <item>http://www.dailystar.com.lb</item>
+        <item>http://www.theindependentbd.com/</item>
+        <item>http://www.dailysun.co.za/</item>
+        <item>http://www.newstoday.com.bd/</item>
+        <item>http://m.bdnews24.com/en</item>
+        <item>http://www.the-editor.net/</item>
+        <item>http://thedailynewnation.com/</item>
+        <item>http://thebangladeshtoday.com/</item>
+        <item>http://www.bssnews.net/</item>
+        <item>http://newagebd.net/</item>
+        <item>http://www.un-bd.org/</item>
+        <item>http://www.unbnews.org/</item>
+    </string-array>
+
+    <!-- List of Magazine news Title -->
+    <string-array name="magazine_news_title">
+        <item>দশদিক </item>
+        <item>এই সময়</item>
+        <item>আনন্দ আলো</item>
+        <item>সাপ্তাহিক</item>
+        <item>কর্পোরেট</item>
+        <item>কালি ও কলম</item>
+        <item>চারবেলা চারদিক</item>
+        <item>বাংলা মাটি</item>
+    </string-array>
+
+    <!-- Magazine  news url -->
+
+    <string-array name="magazine_news_url">
+        <item>http://www.doshdik.com/</item>
+        <item>http://eisamay.indiatimes.com/</item>
+        <item>http://ananda-alo.com/</item>
+        <item>http://www.shaptahik.com</item>
+        <item>http://corporatenews.com.bd/</item>
+        <item>http://www.kaliokalam.com/</item>
+        <item>http://www.charbelachardik.net/</item>
+        <item>http://www.banglamati.net/</item>
+    </string-array>
+
+    <!-- List of Technology news Title -->
+    <string-array name="technology_news_title">
+        <item>কম্পিউটার জগৎ</item>
+        <item>পিসি হেল্পলাইন</item>
+        <item>বাংলা টেক ২৪</item>
+        <item>টেকটিউনস</item>
+        <item>টিউনার পেজ</item>
+        <item>বিডিটেকটুডে</item>
+        <item>টেকশহর</item>
+    </string-array>
+
+    <!-- Technology  news url -->
+
+    <string-array name="technology_news_url">
+        <item>http://www.comjagat.com/</item>
+        <item>http://www.pchelplinebd.com/</item>
+        <item>http://banglatech24.com/</item>
+        <item>http://www.techtunes.com.bd/</item>
+        <item>http://tunerpage.com/</item>
+        <item>http://bdtechtoday.blogspot.com/</item>
+        <item>http://techshohor.com/</item>
+    </string-array>
+
+    <!-- List of Jobs title -->
+    <string-array name="jobs_news_title">
+        <item>BD Jobs</item>
+        <item>Prothom-alojobs</item>
+        <item>Nayadiganta Jobs Portal</item>
+        <item>Chakrionline</item>
+        <item>JobsA1.com</item>
+        <item>Deshijob.com</item>
+        <item>Jobs Bangladesh</item>
+    </string-array>
+
+    <!-- jobs  news url -->
+
+    <string-array name="jobs_news_url">
+        <item>http://jobs.bdjobs.com/m/Searchcategories.aspx</item>
+        <item>http://www.prothom-alojobs.com/job-search</item>
+        <item>http://www.nayadigantajobs.com/</item>
+        <item>http://www.chakrionline.com/home</item>
+        <item>http://www.jobsa1.com/</item>
+        <item>http://www.deshijob.com/</item>
+        <item>http://www.jobsbangladesh.com/</item>
+    </string-array>
+
+    <!-- List of Business title -->
+    <string-array name="business_news_title">
+        <item>Daily Financial Express</item>
+        <item>Daily Bonik Barta</item>
+        <item>Arthosuchak</item>
+        <item>ShareNews24</item>
+        <item>Dailysharebiz</item>
+        <item>Sharemarketbd</item>
+        <item>Dailystockbangladesh</item>
+        <item>BDstock.biz</item>
+        <item>Udyokta</item>
+        <item>Business24BD</item>
+    </string-array>
+
+    <!-- Business  news url -->
+
+    <string-array name="business_news_url">
+        <item>http://www.thefinancialexpress-bd.com/</item>
+        <item>http://www.bonikbarta.com/</item>
+        <item>http://m.arthosuchak.com/?wpmp_switcher=mobile</item>
+        <item>http://sharenews24.com/</item>
+        <item>http://www.dailysharebiz.com/sharebiz/</item>
+        <item>http://www.sharemarketbd.com/</item>
+        <item>http://www.dailystockbangladesh.com/</item>
+        <item>http://www.bdstock.biz/</item>
+        <item>http://www.udyokta.com/</item>
+        <item>http://www.business24bd.com/</item>
+    </string-array>
+
+    <!-- List of Sport title -->
+    <string-array name="sport_news_title">
+        <item>ESPN</item>
+        <item>ESPN Cricinfo</item>
+        <item>ESPN Live Cricket Scores</item>
+        <item>Cricket match schedule </item>
+        <item>Star Sports </item>
+        <item>Start Spots Live Cricket Scores</item>
+        <item>Ten Sports</item>
+    </string-array>
+
+    <!-- Sport  news url -->
+
+    <string-array name="sport_news_url">
+        <item>http://m.espn.go.com</item>
+        <item>http://www.espncricinfo.com/</item>
+        <item>http://m.espncricinfo.com/ci/engine/match/index.html?state=live</item>
+        <item>http://www.espncricinfo.com/ci/engine/match/index.html?view=calendar</item>
+        <item>http://m.starsports.com</item>
+        <item>http://www.starsports.com/cricket/livescores/index.html</item>
+        <item>http://www.tensports.com/</item>
+    </string-array>
+
+    <string name="title_activity_bangla_news_acivity">Bangla News</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_englsh_news">English News</string>
+    <string name="title_activity_common_web_view">CommonWebViewActivity</string>
+    <string name="title_activity_magazine_news">Magazine News</string>
+    <string name="title_activity_technology_news">Technology News</string>
+    <string name="title_activity_jobs_news">Jobs News</string>
+    <string name="title_activity_business_news">Business News</string>
+    <string name="title_activity_sport_news">Sport News</string>
+
+</resources>
