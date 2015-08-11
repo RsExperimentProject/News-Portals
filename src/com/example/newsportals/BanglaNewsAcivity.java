@@ -4,8 +4,10 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -26,13 +28,14 @@ public class BanglaNewsAcivity extends Activity {
 	private String[] banglaNewsUrl;
 	String Go_url = "url_link";
 	String Title = "news_title";
-	
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		setContentView(R.layout.bangla_news_acivity);
-		
+
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		banglaListView = (ListView) findViewById(R.id.bangla_listview);
 
@@ -74,4 +77,19 @@ public class BanglaNewsAcivity extends Activity {
 		return true;
 	}
 
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+			Intent intent = new Intent(this, StartActivity.class);
+			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
+			break;
+
+		default:
+			break;
+		}
+
+		return super.onOptionsItemSelected(item);
+	}
 }

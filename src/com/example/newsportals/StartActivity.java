@@ -2,6 +2,7 @@ package com.example.newsportals;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -19,13 +20,14 @@ public class StartActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		setContentView(R.layout.activity_start);
 
 		lv = (ListView) findViewById(R.id.newsCategories);
 
-		adapter = new ArrayAdapter<String>(this,
-				R.layout.categories_list_patern, R.id.list_patern,
-				getResources().getStringArray(R.array.news_category_items));
+		adapter = new ArrayAdapter<String>(this, R.layout.start_list_patern,
+				R.id.list_patern_text, getResources().getStringArray(
+						R.array.news_category_items));
 		lv.setAdapter(adapter);
 
 		lv.setOnItemClickListener(new OnItemClickListener() {
@@ -70,6 +72,11 @@ public class StartActivity extends Activity {
 					Intent businessIntent = new Intent(StartActivity.this,
 							BusinessNews.class);
 					startActivity(businessIntent);
+					break;
+				case 7:
+					Intent internationIntent = new Intent(StartActivity.this,
+							InternationaNews.class);
+					startActivity(internationIntent);
 					break;
 				default:
 					break;

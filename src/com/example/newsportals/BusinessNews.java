@@ -3,6 +3,7 @@ package com.example.newsportals;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -24,6 +25,7 @@ public class BusinessNews extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		setContentView(R.layout.business_news_activity);
 
 		businessListView = (ListView) findViewById(R.id.business_listview);
@@ -34,7 +36,8 @@ public class BusinessNews extends Activity {
 				R.layout.categories_list_patern, R.id.list_patern, newsTitle);
 		businessListView.setAdapter(adapter);
 
-		businessNewsTitle = getResources().getStringArray(R.array.business_news_url);
+		businessNewsTitle = getResources().getStringArray(
+				R.array.business_news_url);
 
 		businessListView.setOnItemClickListener(new OnItemClickListener() {
 
@@ -54,6 +57,7 @@ public class BusinessNews extends Activity {
 			}
 		});
 	}
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

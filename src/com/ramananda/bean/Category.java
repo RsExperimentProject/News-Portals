@@ -2,15 +2,16 @@ package com.ramananda.bean;
 
 public class Category {
 	private String title;
-	private int icon;
+	private String state;
 
+	
 	public Category(String title) {
 		this.title = title;
 	}
-	
-	public Category(String title, int icon) {
+
+	public Category(String title, String state) {
 		this.title = title;
-		this.icon = icon;
+		this.state = state;
 	}
 
 	public String getTitle() {
@@ -21,12 +22,12 @@ public class Category {
 		this.title = title;
 	}
 
-	public int getIcon() {
-		return icon;
+	public String getState() {
+		return state;
 	}
 
-	public void setIcon(int icon) {
-		this.icon = icon;
+	public void setState(String state) {
+		this.state = state;
 	}
 
 }

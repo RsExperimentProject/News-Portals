@@ -53,7 +53,7 @@ public class BanglaAdapter extends BaseAdapter {
 		txtTitle.setText(newsItems.get(position).getTitle());
 		txtTitle.setTypeface(Typeface.createFromAsset(context.getAssets(),
 				BanglaAdapter.FONT));
-		txtTitle.setTextSize(21);
+		txtTitle.setTextSize(19);
 		return convertView;
 	}
 }

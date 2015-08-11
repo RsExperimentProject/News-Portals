@@ -27,6 +27,15 @@ public final class R {
         /**  english  news url 
          */
         public static final int english_news_url=0x7f070004;
+        /**  List of international news title 
+         */
+        public static final int international_news_title=0x7f07000f;
+        /**  International  news url 
+         */
+        public static final int international_news_url=0x7f070011;
+        /**  Sport  news url 
+         */
+        public static final int international_state=0x7f070010;
         /**  List of Jobs title 
          */
         public static final int jobs_news_title=0x7f070009;
@@ -71,30 +80,37 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int background_round_corner_list=0x7f020000;
-        public static final int ic_action_refresh=0x7f020001;
-        public static final int ic_action_share=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int refresh=0x7f020004;
+        public static final int action_news_imgs=0x7f020000;
+        public static final int background_round_corner_list=0x7f020001;
+        public static final int ic_action_refresh=0x7f020002;
+        public static final int ic_action_share=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int news_potals=0x7f020005;
+        public static final int refresh=0x7f020006;
     }
     public static final class id {
         public static final int Common_webView=0x7f0a0005;
         public static final int CommonprogressBar=0x7f0a0004;
         public static final int English_listview=0x7f0a0007;
-        public static final int action_home=0x7f0a000f;
-        public static final int action_refresh=0x7f0a0010;
-        public static final int action_settings=0x7f0a000e;
+        public static final int action_home=0x7f0a0014;
+        public static final int action_refresh=0x7f0a0015;
+        public static final int action_search=0x7f0a0013;
+        public static final int action_settings=0x7f0a0012;
         public static final int bangla_listview=0x7f0a0001;
         public static final int business_listview=0x7f0a0002;
         public static final int custom_font=0x7f0a0006;
-        public static final int jobs_listview=0x7f0a0008;
+        public static final int internation_listview=0x7f0a000a;
+        public static final int internation_news_state=0x7f0a0009;
+        public static final int internation_news_title=0x7f0a0008;
+        public static final int jobs_listview=0x7f0a000b;
         public static final int list_patern=0x7f0a0003;
-        public static final int magazine_listview=0x7f0a0009;
+        public static final int list_patern_text=0x7f0a000e;
+        public static final int magazine_listview=0x7f0a000c;
         public static final int newsCategories=0x7f0a0000;
-        public static final int progressBar=0x7f0a000c;
-        public static final int sport_listview=0x7f0a000a;
-        public static final int technology_listview=0x7f0a000b;
-        public static final int webView=0x7f0a000d;
+        public static final int progressBar=0x7f0a0010;
+        public static final int sport_listview=0x7f0a000d;
+        public static final int technology_listview=0x7f0a000f;
+        public static final int webView=0x7f0a0011;
     }
     public static final class layout {
         public static final int activity_start=0x7f030000;
@@ -104,23 +120,27 @@ public final class R {
         public static final int common_web_view_activity=0x7f030004;
         public static final int custom_actionbar_title=0x7f030005;
         public static final int englsh_news_activity=0x7f030006;
-        public static final int jobs_news_activity=0x7f030007;
-        public static final int magazine_news_activity=0x7f030008;
-        public static final int sport_news_activity=0x7f030009;
-        public static final int technology_news_activity=0x7f03000a;
-        public static final int web_view_acivity=0x7f03000b;
+        public static final int internation_list_adapter=0x7f030007;
+        public static final int internationa_news_activity=0x7f030008;
+        public static final int jobs_news_activity=0x7f030009;
+        public static final int magazine_news_activity=0x7f03000a;
+        public static final int sport_news_activity=0x7f03000b;
+        public static final int start_list_patern=0x7f03000c;
+        public static final int technology_news_activity=0x7f03000d;
+        public static final int web_view_acivity=0x7f03000e;
     }
     public static final class menu {
         public static final int bangla_news_acivity=0x7f090000;
         public static final int business_news=0x7f090001;
         public static final int common_web_view=0x7f090002;
         public static final int englsh_news=0x7f090003;
-        public static final int jobs_news=0x7f090004;
-        public static final int magazine_news=0x7f090005;
-        public static final int sport_news=0x7f090006;
-        public static final int start=0x7f090007;
-        public static final int technology_news=0x7f090008;
-        public static final int web_view=0x7f090009;
+        public static final int internationa_news=0x7f090004;
+        public static final int jobs_news=0x7f090005;
+        public static final int magazine_news=0x7f090006;
+        public static final int sport_news=0x7f090007;
+        public static final int start=0x7f090008;
+        public static final int technology_news=0x7f090009;
+        public static final int web_view=0x7f09000a;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
@@ -130,6 +150,7 @@ public final class R {
         public static final int title_activity_business_news=0x7f06000a;
         public static final int title_activity_common_web_view=0x7f060006;
         public static final int title_activity_englsh_news=0x7f060005;
+        public static final int title_activity_internationa_news=0x7f06000c;
         public static final int title_activity_jobs_news=0x7f060009;
         public static final int title_activity_magazine_news=0x7f060007;
         public static final int title_activity_sport_news=0x7f06000b;

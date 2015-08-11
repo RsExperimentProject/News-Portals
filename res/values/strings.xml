@@ -13,7 +13,6 @@
         <item>Technology News</item>
         <item>Sport News </item>
         <item>Business News</item>
-        <item>Versity News </item>
         <item>International News </item>
     </string-array>
 
@@ -230,6 +229,463 @@
         <item>http://www.tensports.com/</item>
     </string-array>
 
+    <!-- List of international news title -->
+    <string-array name="international_news_title">
+        <item>The New York Times</item>
+        <item>The Washington Post</item>
+        <item>The Wall Street Journal</item>
+        <item>USA Today</item>
+        <item>Los Angeles Times</item>
+        <item>The Examiner</item>
+        <item>Daily News</item>
+        <item>Chicago Tribune</item>
+        <item>Houston Chroncle</item>
+        <item>New York Post</item>
+        <item>The Christian Science Monitor</item>
+        <item>The Hollywood Reporter</item>
+        <item>The Chicago Sun-Times</item>
+        <item>The Washinton Times</item>
+        <item>The Pladelphia Inquirer</item>
+        <item>San Jose Mercury News</item>
+        <item>The Onon</item>
+        <item>The Denver Post</item>
+        <item>Newsday</item>
+        <item>The Sacramento Bee</item>
+        <item>Star Tribune</item>
+        <item>The Miami Herald</item>
+        <item>The Dallas Mornng News</item>
+        <item>The Boston Globe</item>
+        <item>The Oregonian</item>
+        <item>The Baltiimore Sun</item>
+        <item>The Seattle Times</item>
+        <item>The Atlanta Journal-Constitution</item>
+        <item>Boston Herald</item>
+        <item>The Plain Dealer</item>
+        <item>Detroit Free Press</item>
+        <item>Seattle Post-Intelligencer</item>
+        <item>Orlando Sentinel</item>
+        <item>South Florida Sun-Sentinel</item>
+        <item>The Hill</item>
+        <item>Pittsburgh Post-Gazette</item>
+        <item>Milwaukee Journal Sentinel</item>
+        <item>The Kansas City Star</item>
+        <item>The New York Observer</item>
+        <item>St. Louis Post-Dispatch</item>
+        <item>The Orange County Register</item>
+        <item>The Columbus Dispatch</item>
+        <item>Hartford Courant</item>
+        <item>Express-News</item>
+        <item>The News and Observer</item>
+        <item>Deseret News</item>
+        <item>Salt Lake Tribune</item>
+        <item>"Investor's" Business Daily</item>
+        <item>Times Union</item>
+        <item>Arizona Daily Star</item>
+        <item>The Guardian</item>
+        <item>The Daily Mail</item>
+        <item>The Daily Telegraph</item>
+        <item>The Independent</item>
+        <item>Financial Times</item>
+        <item>Daily Mirror</item>
+        <item>The Sun</item>
+        <item>Daily Express</item>
+        <item>The Times</item>
+        <item>Evening Standard</item>
+        <item>Bild</item>
+        <item>Die Welt</item>
+        <item>Suddeutsche Zeitung</item>
+        <item>Die Zeit</item>
+        <item>Handelsblatt</item>
+        <item>Rheinische Post</item>
+        <item>Die Tageszeitung</item>
+        <item>Hamburger Abendblatt</item>
+        <item>The Times of India</item>
+        <item>The Hindu</item>
+        <item>The Hindustan Times</item>
+        <item>Dainik Bhaskar</item>
+        <item>"The People's" Daily</item>
+        <item>Qingdao News</item>
+        <item>Yangtse Evening Post</item>
+        <item>La Repubblica</item>
+        <item>Corriere della Sera</item>
+        <item>II Sole24 Ore</item>
+        <item>La Gazzetta dello Sport</item>
+        <item>La Stampa</item>
+        <item>El Pais</item>
+        <item>ABC</item>
+        <item>AS</item>
+        <item>El Economista</item>
+        <item>La Vanguardia</item>
+        <item>Le Monde</item>
+        <item>Liberation</item>
+        <item>Le Nouvel Observateur</item>
+        <item>"L'Equipe"</item>
+        <item>Les Echos</item>
+        <item>Milliyet</item>
+        <item>Sabah</item>
+        <item>Zaman</item>
+        <item>Asahi Shimbun</item>
+        <item>Yomiuri Shimbun</item>
+        <item>Nihon Keizai Shimbun</item>
+        <item>The Japan Times</item>
+        <item>Mainichi Shimbun</item>
+        <item>Nikkan Sports</item>
+        <item>Sankei Sports</item>
+        <item>The Age</item>
+        <item>Herald Sun</item>
+        <item>The Advertiser</item>
+        <item>Kommersant</item>
+        <item>Rossiyskaya Gazeta</item>
+        <item>Charin</item>
+        <item>La Nacion</item>
+        <item>"Pagina/12"</item>
+        <item>Aftonbladet</item>
+        <item>Dagens Nyheter</item>
+        <item>The Jerusalem Post</item>
+        <item>Haaretz</item>
+        <item>Yediot Aharonot</item>
+        <item> Dagbladet</item>
+        <item>Verdens Gang</item>
+        <item>Aftenposten</item>
+        <item>The Globe and Mail</item>
+        <item>The Toronto Star</item>
+        <item>The Vancouver Sun</item>
+        <item>Toronto Sun</item>
+        <item>Algemeen Dagblad</item>
+        <item>NRC Handelsblad</item>
+        <item> United Daily News</item>
+        <item>China Times</item>
+        <item>Arab News</item>
+        <item>Asharq Al-Awsat</item>
+        <item>Gazeta Wyborcza</item>
+        <item>Mlada fronta Dnes</item>
+        <item>O Globo </item>
+        <item>The New Zealand Herald </item>
+        <item>Al-Ahram</item>
+        <item>Philippine Daily Inquirer</item>
+        <item>The Star Online</item>
+        <item>Kompas</item>
+        <item>Dawn</item>
+        <item>The Irish Independent</item>
+        <item>Het Nieuwsblad</item>
+        <item>The Straits Times</item>
+        <item>Gulf News</item>
+        <item>Die Presse</item>
+        <item>o Vima</item>
+        <item>El Unversal</item>
+    </string-array>
+
+    <!-- Sport  news url -->
+
+    <string-array name="international_state">
+
+        <!-- 50 United States -->
+
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <item> United States</item>
+        <!-- 10 United Kingdom -->
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <!-- 8  Germany -->
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <!-- 12  India and China and Italy -->
+        <item>India</item>
+        <item>India</item>
+        <item>India</item>
+        <item>India</item>
+        <item>China</item>
+        <item>China</item>
+        <item>China</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <item>Italy</item>
+        <!-- 10 Spain and France -->
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>Spain</item>
+        <item>France</item>
+        <item>France</item>
+        <item>France</item>
+        <item>France</item>
+        <item>France</item>
+        <!-- 10 Japan and Turky -->
+        <item>Turky</item>
+        <item>Turky</item>
+        <item>Turky</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <item>Japan</item>
+        <!-- 20 -->
+        <item>Australia</item>
+        <item>Australia</item>
+        <item>Australia</item>
+        <item>Russia</item>
+        <item>Russia</item>
+        <item>Argentina</item>
+        <item>Argentina</item>
+        <item>Argentina</item>
+        <item>Sweden</item>
+        <item>Sweden</item>
+        <item>Israel</item>
+        <item>Israel</item>
+        <item>Israel</item>
+        <item>Norway</item>
+        <item>Norway</item>
+        <item>Norway</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <!-- 22 -->
+        <item>Netherlands</item>
+        <item>Netherlands</item>
+        <item>Taiwan</item>
+        <item>Taiwan</item>
+        <item>Saudi Arabia</item>
+        <item>Saudi Arabia</item>
+        <item>Poland</item>
+        <item>Czech Republic</item>
+        <item>Brazil</item>
+        <item>New Zealand</item>
+        <item>Egypt</item>
+        <item>Philppines</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+        <item>Pakistan</item>
+        <item>Ireland</item>
+        <item>Belgium</item>
+        <item>Singapore</item>
+        <item>United Arab Emirates</item>
+        <item>Austria</item>
+        <item>Greece</item>
+        <item>Venezula</item>
+    </string-array>
+
+    <!-- International  news url -->
+
+    <string-array name="international_news_url">
+        <item>http://www.nytimes.com/</item>
+        <item>http://www.washingtonpost.com/</item>
+        <item>http://www.wsj.com/</item>
+        <item>http://www.usatoday.com/</item>
+        <item>http://www.latimes.com/</item>
+        <item>http://www.examiner.com.au/</item>
+        <item>http://www.nydailynews.com/</item>
+        <item>http://www.chicagotribune.com/</item>
+        <item>http://www.chron.com/</item>
+        <item>http://nypost.com/</item>
+        <item>http://www.csmonitor.com/</item>
+        <item>http://www.hollywoodreporter.com/</item>
+        <item>http://chicago.suntimes.com/</item>
+        <item>http://www.washingtontimes.com/</item>
+        <item>http://www.philly.com/inquirer/</item>
+        <item>http://www.mercurynews.com/</item>
+        <item>http://www.theonion.com/</item>
+        <item>http://www.denverpost.com/</item>
+        <item>http://www.newsday.com/</item>
+        <item>http://www.sacbee.com/</item>
+        <!-- 20 url -->
+        <item>http://www.startribune.com/</item>
+        <item>http://www.miamiherald.com/</item>
+        <item>http://www.dallasnews.com/</item>
+        <item>http://www.bostonglobe.com/</item>
+        <item>http://www.oregonlive.com</item>
+        <item>http://www.baltimoresun.com/</item>
+        <item>http://www.seattletimes.com/</item>
+        <item>http://www.ajc.com/</item>
+        <item>http://www.bostonherald.com/</item>
+        <item>http://www.cleveland.com/</item>
+        <item>http://www.freep.com/</item>
+        <item>http://www.seattlepi.com/</item>
+        <item>http://www.orlandosentinel.com/</item>
+        <item>http://www.sun-sentinel.com/</item>
+        <item>http://thehill.com/</item>
+        <item>http://www.post-gazette.com/</item>
+        <item>http://www.jsonline.com/</item>
+        <item>http://www.kansascity.com/</item>
+        <item>http://observer.com/</item>
+        <item>http://www.stltoday.com/</item>
+        <!-- 20 url -->
+        <item>http://www.ocregister.com/</item>
+        <item>http://www.dispatch.com/</item>
+        <item>http://www.courant.com/</item>
+        <item>http://www.express.com.pk/</item>
+        <item>http://www.newsobserver.com/</item>
+        <item>http://www.deseretnews.com/</item>
+        <item>http://www.sltrib.com/</item>
+        <item>http://www.investors.com/default.htm</item>
+        <item>http://www.timesunion.com/</item>
+        <item>http://tucson.com/</item>
+        <item>http://www.theguardian.com/uk</item>
+        <item>http://www.dailymail.co.uk/home/index.html</item>
+        <item>http://www.dailytelegraph.com.au/</item>
+        <item>http://www.independent.co.uk/</item>
+        <item>http://www.ft.com/home/uk</item>
+        <item>http://www.mirror.co.uk/</item>
+        <item>http://www.thesun.co.uk/sol/</item>
+        <item>http://www.express.co.uk/</item>
+        <item>http://www.thetimes.co.uk/tto/news/</item>
+        <item>http://www.standard.co.uk/</item>
+        <!-- 20 url -->
+        <item>http://www.bild.de/</item>
+        <item>http://www.welt.de/</item>
+        <item>http://www.sueddeutsche.de/</item>
+        <item>http://www.zeit.de/index</item>
+        <item>http://www.handelsblatt.com/</item>
+        <item>http://www.rp-online.de/</item>
+        <item>http://www.taz.de/</item>
+        <item>http://www.abendblatt.de/</item>
+        <item>http://timesofindia.indiatimes.com/</item>
+        <item>http://www.thehindu.com/</item>
+        <item>http://www.hindustantimes.com/</item>
+        <item>http://www.bhaskar.com/</item>
+        <item>http://en.people.cn/</item>
+        <item>http://www.qingdaonews.com/</item>
+        <item>http://www.mondotimes.com</item>
+        <item>http://www.repubblica.it/</item>
+        <item>http://www.corriere.it/</item>
+        <item>http://www.ilsole24ore.com/</item>
+        <item>http://www.gazzetta.it/</item>
+        <item>http://www.lastampa.it/</item>
+        <!-- 20 url -->
+        <item>http://elpais.com/</item>
+        <item>http://abc.go.com/</item>
+        <item>http://as.com/</item>
+        <item>http://www.eleconomista.es/</item>
+        <item>http://www.lavanguardia.com</item>
+        <item>http://www.lemonde.fr/</item>
+        <item>http://www.liberation.fr/</item>
+        <item>http://tempsreel.nouvelobs.com/</item>
+        <item>http://www.lequipe.fr/</item>
+        <item>http://www.lesechos.fr/</item>
+        <item>http://www.milliyet.com.tr/</item>
+        <item>http://www.sabah.com.tr/</item>
+        <item>http://www.zaman.com.tr/haber</item>
+        <item>http://www.asahi.com/</item>
+        <item>http://www.yomiuri.co.jp/</item>
+        <item>http://www.nikkei.com/</item>
+        <item>http://www.japantimes.co.jp/</item>
+        <item>http://mainichi.jp/english/</item>
+        <item>http://www.nikkansports.com/</item>
+        <item>http://www.sanspo.com/</item>
+        <!-- 20 url -->
+
+        <item>http://www.theage.com.au/</item>
+        <item>http://www.heraldsun.com.au/</item>
+        <item>http://www.adelaidenow.com.au/</item>
+        <item>http://www.kommersant.ru/</item>
+        <item>http://www.rg.ru/about.html</item>
+        <item>http://www.charinsf.com/</item>
+        <item>http://www.lanacion.com.ar/</item>
+        <item>http://www.pagina12.com.ar</item>
+        <item>http://www.aftonbladet.se/</item>
+        <item>http://www.dn.se/</item>
+        <item>http://www.jpost.com</item>
+        <item>http://www.haaretz.com/</item>
+        <item>http://www.ynetnews.com</item>
+        <item>http://www.dagbladet.no/</item>
+        <item>http://www.vg.no/</item>
+        <item>http://www.aftenposten.no/</item>
+        <item>http://www.theglobeandmail.com/</item>
+        <item>http://www.thestar.com/</item>
+        <item>http://www.vancouversun.com/index.html</item>
+        <item>http://www.torontosun.com/</item>
+        <!-- 22 url -->
+        <item>http://www.ad.nl/</item>
+        <item>http://www.nrc.nl/</item>
+        <item>http://www.uniteddaily.com.my/</item>
+        <item>http://www.chinatimes.com/</item>
+        <item>http://www.arabnews.com/</item>
+        <item>http://www.aawsat.net/</item>
+        <item>http://wyborcza.pl/0,0.html</item>
+        <item>http://www.idnes.cz/</item>
+        <item>http://oglobo.globo.com/</item>
+        <item>http://www.nzherald.co.nz/</item>
+        <item>http://www.ahram.org.eg/</item>
+        <item>http://www.inquirer.net/</item>
+        <item>http://www.thestar.com.my/</item>
+        <item>http://www.kompas.com/</item>
+        <item>http://www.dawn.com/</item>
+        <item>http://www.independent.ie/</item>
+        <item>http://www.nieuwsblad.be/</item>
+        <item>http://www.straitstimes.com/</item>
+        <item>http://gulfnews.com/</item>
+        <item>http://diepresse.com/</item>
+        <item>http://www.tovima.gr/</item>
+        <item>http://www.eluniversal.com.mx</item>
+    </string-array>
+
     <string name="title_activity_bangla_news_acivity">Bangla News</string>
     <string name="title_activity_web_view">WebViewActivity</string>
     <string name="title_activity_englsh_news">English News</string>
@@ -239,5 +695,6 @@
     <string name="title_activity_jobs_news">Jobs News</string>
     <string name="title_activity_business_news">Business News</string>
     <string name="title_activity_sport_news">Sport News</string>
+    <string name="title_activity_internationa_news">International News</string>
 
 </resources>

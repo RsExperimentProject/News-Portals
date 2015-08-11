@@ -8,6 +8,7 @@ import com.ramananda.bean.Category;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,7 +16,7 @@ import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
 
 public class TechnologyNews extends Activity {
-	
+
 	private ListView technologyLists;
 
 	BanglaAdapter adapter;
@@ -30,6 +31,7 @@ public class TechnologyNews extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		setContentView(R.layout.technology_news_activity);
 
 		technologyLists = (ListView) findViewById(R.id.technology_listview);
